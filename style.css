@@ -1,0 +1,49 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+.location {
+  text-align: center;
+  font-size: 14px;
+  margin-top: 20px;
+}
+
+.location span {
+  font-weight: normal;
+}
+
+.weather-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: #f9d71c;
+  border-radius: 25px;
+  margin: 20px 10px 0;
+  box-shadow: 0 5px 10px -5px;
+}
+
+.conditions i {
+  font-size: 50px;
+}
+
+.conditions p:first-of-type {
+  font-size: 28px;
+  margin: 10px 0;
+  font-weight: bold;
+}
+
+.conditions p:nth-of-type(2),
+.temperature p:nth-of-type(2) {
+  font-size: 12px;
+  margin: 5px 0;
+}
+
+.temperature p:first-of-type {
+  font-size: 60px;
+  margin: 0;
+  font-weight: bold;
+}
