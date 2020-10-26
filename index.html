@@ -15,17 +15,19 @@
     <title>Weather App</title>
   </head>
   <body>
-    <h2 class="location">Accra, <span>Ghana</span></h2>
-    <div class="weather-container">
+    <h2 class="location">--</h2>
+    <input type="text" class="query" placeholder="Enter a city name" />
+    <div class="weather-container" id="weather-sunny">
       <div class="conditions">
         <i class="fas fa-sun"></i>
-        <p>Sunny</p>
-        <p>Afternoon</p>
+        <p id="condition">--</p>
+        <p id="time">--</p>
       </div>
       <div class="temperature">
-        <p>26&#176;</p>
-        <p>Feels like 31&#176;</p>
+        <p id="temperature">--</p>
+        <p>Feels like <span id="feels-like">--</span></p>
       </div>
     </div>
+    <script src="app.js"></script>
   </body>
 </html>

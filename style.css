@@ -6,6 +6,14 @@ body {
   font-family: 'Poppins', sans-serif;
 }
 
+.query {
+  display: block;
+  width: 80%;
+  margin: 20px auto 0;
+  padding: 10px 15px;
+  border-radius: 10px;
+}
+
 .location {
   text-align: center;
   font-size: 14px;
@@ -20,10 +28,30 @@ body {
   display: flex;
   justify-content: space-between;
   padding: 20px;
-  background-color: #f9d71c;
   border-radius: 25px;
   margin: 20px 10px 0;
   box-shadow: 0 5px 10px -5px;
+}
+
+#weather-regular {
+  background-color: aqua;
+}
+
+#weather-sunny {
+  background-color: #f9d71c;
+}
+
+#weather-thunder,
+#weather-rain {
+  background-color: #003366;
+}
+
+#weather-snow {
+  background-color: #fffafa;
+}
+
+#weather-misty {
+  background-color: #e9eceb;
 }
 
 .conditions i {
